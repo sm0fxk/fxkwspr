@@ -36,6 +36,7 @@ Requirements for running the GUI
 The following Python libraries must be installed:
 - Tcl/Tk (tkinter)
 - pyserial
+If you run Linux, be aware of that you must be member of the group 'dialout' in order to open the serial connection.
 
 
 Operating the beacon
