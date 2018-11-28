@@ -855,6 +855,18 @@ void tune(char *command)
       }
       break;
 
+      case tuning:
+#ifdef SI5351
+        si5351.set_clock_pwr(SI5351_CLK0, 0);
+#endif
+#ifdef AD9850DDS
+      ad9850_set_frequency(0);
+      ad9850_down();
+#endif
+      wspr_state = inactive;
+        Serial.println(wspr_state);
+      break;
+      
       default:
          Serial.println(";");
 
