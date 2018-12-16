@@ -62,3 +62,17 @@ The Arduino sketch have been tested on Arduino UNO and Arduino Nano.
 The Python code is developed on Linux (Ubuntu), but is also tested on Windows10.
 
 
+Hardware wiring instructions
+----------------------------
+
+  Si5351                                  Arduino UNO/Nano
+  ------                                  ----------------
+    |                                             |
+Vin |---------------------------------------------| +5V
+GND |---------------------------------------------| GND
+SDA |---------------------------------------------| SDA(A5)
+SCL |---------------------------------------------| SCL(A4)
+
+
+
+
