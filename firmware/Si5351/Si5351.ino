@@ -863,6 +863,7 @@ void tune(char *command)
       ad9850_set_frequency(0);
       ad9850_down();
 #endif
+      set_filter(0);
       wspr_state = inactive;
         Serial.println(wspr_state);
       break;
