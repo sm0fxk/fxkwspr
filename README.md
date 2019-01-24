@@ -1,5 +1,12 @@
 # fxkwspr
 A WSPR beacon.
+Key benefits
+------------
+- Configuration and management done through a graphical user interface.
+- The user interface runs on both Linux and Windows.
+- No need for a GPS receiver. Time is syncronized from the PC. Time is kept by a real time clock module.
+- Runs stand alone once time is syncronized.
+- Can control relays for switching LP filter or antenna.
 
 Please note that an amateur radio licence is required to transmit the signals this application is generating.
 
